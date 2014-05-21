@@ -1,7 +1,7 @@
-Flex Widget: Standalone Player
+Flex Widget: Docked Player
 =============
 
-![Standalone Player Preview](http://www.beatbrokerz.com/flex/widget/fwdock/preview.png)
+![Docked Player Preview](http://www.beatbrokerz.com/flex/widget/fwdock/preview.png)
 
 This is a docked player for your flex app. It stays fixed to the bottom of the screen and supports licensing options, playlist changing, shopping cart access, checkout access, and all other standard music controls. It is also responsive to screen size and will adjust its controls and layout according to the screen size it's being viewed on.
 
