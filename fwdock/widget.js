@@ -103,7 +103,7 @@ flexloader.extendApp(function ($, App, config) {
             $('body').append('<div id="fwdock-auto">');
             App.ready(function() {
                 $('#fwdock-auto').bbflex({ widget: 'fwdock' });
-            })
+            });
         }
     }
 
