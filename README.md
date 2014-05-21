@@ -75,5 +75,86 @@ The widget supports the following settings:
 The rendered widget uses the following template structure and css classing.
 
 ```html
-
+<div id="fwdock-container">
+  <div class="fwdock-playlist-container">
+    <div class="fwdock-playlist">
+      <!-- Stock Playlist Widget -->
+    </div>
+    <div class="fwdock-playlist-more">
+      <a class="jp-button">
+        <i class="fwicon-cd"></i> Change Playlist
+      </a>
+    </div>
+    <div class="fwdock-playlist-title-wrap">
+      <i class="fwicon-music"></i> <span class="fwdock-title"></span>
+      (<span class="fwdock-total-beats">0</span> Beats)
+    </div>
+  </div>
+  <div class="fwdock-music-buttons">
+    <a class="fwdock-button small white circle fw-previous">
+      <i class="fwicon-fast-bw"></i>
+    </a>
+    <a class="fwdock-button medium white circle fw-play">
+      <i class="fwicon-play"></i>
+    </a>
+    <a class="fwdock-button medium white circle fw-pause">
+      <i class="fwicon-pause"></i>
+    </a>
+    <a class="fwdock-button small white circle fw-next">
+      <i class="fwicon-fast-fw"></i>
+    </a>
+  </div>
+  <div class="fwdock-volume-controls">
+    <div class="fw-volume-bar-container">
+      <a class="fw-mute">
+        <i class="flexicon-volume-up"></i>
+      </a>
+      <a class="fw-unmute">
+        <i class="flexicon-volume-down"></i>
+      </a>
+      <div class="fw-volume-bar">
+        <div class="fw-volume-bar-value">
+          <div class="bullet"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="fwdock-nowplaying-info">
+    <div>
+      <img class="fwdock-nowplaying-image" />
+        <div class="fwdock-addtocart">
+          <i class="fwicon-dollar show-tooltip"></i>
+        </div>
+        <div class="fwdock-progressbar">
+          <!-- Stock Progress Bar Widget -->
+        </div>
+        <div class="fwdock-nowplaying-music">
+          <div class="title"></div>
+          <div class="artist"></div>
+        </div>
+        <div class="fwdock-side-buttons">
+          <i title="Launch Fullscreen" class="fwicon-resize-full show-tooltip"></i>
+        </div>
+      </div>
+    </div>
+   <div class="fwdock-command-options">
+     <a class="fwdock-button fwdock-playlist-menu medium white circle slide-toggle">
+       <i title="Playlist Menu" class="fwicon-align-justify"></i>
+     </a>
+     <div class="fwdock-command-cart">
+       <div class="items-count">
+         <i class="fwicon-basket"></i> 
+         <span>0 Items</span>
+       </div>
+       <div class="items-total">
+         $0.00
+       </div>
+     </div>
+    <div class="items-checkout">
+      <a class="fwdock-button fwdock-checkout-button medium green rounded">
+        Checkout
+      </a>
+    </div>
+  </div>
+</div>
 ```
