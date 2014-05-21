@@ -53,7 +53,7 @@ flexloader.extendApp(function ($, App, config) {
                 <div class="fwdock-command-options">\
                   <a href="javascript:;" class="fwdock-button fwdock-playlist-menu medium white circle slide-toggle"><i title="Playlist Menu" class="fwicon-align-justify" style="margin:8px 0 0 0;"></i></a>\
                   <div data-bind="click: cart.show" class="fwdock-command-cart">\
-                <div class="items-count"><i class="fwicon-basket"></i> <span data-bind="html: cart().items.length + \' Items\'"></div>\
+                <div class="items-count"><i class="fwicon-basket"></i> <span data-bind="html: cart().items.length + \' Items\'"></span></div>\
                 <div class="items-total" data-bind="html: \'$\' + cart().total"></div>\
                   </div>\
                   <div class="items-checkout" data-bind="visible: cart().items.length > 0" style="display:none"><a data-bind="click: cart.checkout" class="fwdock-button fwdock-checkout-button medium green rounded">Checkout</a></div>\
