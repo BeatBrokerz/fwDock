@@ -85,7 +85,7 @@ flexloader.extendApp(function ($, App, config) {
      * Autoload Handler:
      *
      * Our autoload handling is placed after addWidget() for good reason. We want to ensure the widget is added
-     * right away because of our 'autoconfig' option that will add the widget into the DOM and then display it
+     * right away because of our 'autodeploy' option that will add the widget into the DOM and then display it
      * automatically.
      *
      * Also, we separate the task into two parts since we want to put the placeholder into the DOM right
@@ -99,7 +99,7 @@ flexloader.extendApp(function ($, App, config) {
      */
     if (config.autoload) {
         flexloader.addResource({ src: config.script.basepath + 'widget.css' });
-        if (config.options && config.options.autoconfig) {
+        if (config.options && config.options.autodeploy) {
             $('body').append('<div id="fwdock-auto">');
             App.ready(function() {
                 $('#fwdock-auto').bbflex({ widget: 'fwdock' });
