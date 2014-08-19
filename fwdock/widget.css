@@ -1,3 +1,12 @@
+#fwdock-container *,
+#fwdock-container *:before,
+#fwdock-container *:after {
+    -webkit-box-sizing: content-box !important;
+    -moz-box-sizing: content-box !important;
+    box-sizing: content-box !important;
+    text-shadow: none !important;
+}
+
 #fwdock-container {
     position: fixed;
     left: 0px;
