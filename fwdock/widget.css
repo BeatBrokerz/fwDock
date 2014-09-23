@@ -7,6 +7,10 @@
     text-shadow: none !important;
 }
 
+#fwdock-container * {
+    font-size:12px;
+}
+
 #fwdock-container {
     position: fixed;
     left: 0px;
